@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- "Siyah + Altın" rozet zemini. Metnin üzerindeki altın "shimmer" ışığı
+     ShimmerBadgeView tarafından Paint shader ile canlandırılır. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="20dp" />
+    <gradient
+        android:startColor="#000000"
+        android:centerColor="#1A1A1A"
+        android:endColor="#000000"
+        android:angle="0" />
+    <stroke
+        android:width="1dp"
+        android:color="#3A2E00" />
+</shape>

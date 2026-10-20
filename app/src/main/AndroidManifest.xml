@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:theme="@style/Theme.PubStats"
+        android:usesCleartextTraffic="false">
+
+        <!--
+          ⚠️ Bu, Google'ın RESMİ TEST AdMob App ID'sidir
+          (https://developers.google.com/admob/android/test-ads).
+          Yayına çıkmadan önce kendi AdMob hesabındaki gerçek App ID ile
+          değiştirmen ZORUNLUDUR.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".PremiumActivity"
+            android:exported="false"
+            android:label="Premium" />
+
+        <activity
+            android:name=".HistoryActivity"
+            android:exported="false"
+            android:label="Arama Geçmişi" />
+
+        <activity
+            android:name=".CompareActivity"
+            android:exported="false"
+            android:label="Profil Karşılaştır" />
+
+    </application>
+
+</manifest>

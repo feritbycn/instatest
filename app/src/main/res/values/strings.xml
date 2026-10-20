@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Public Stats</string>
+    <string name="hint_username">Kullanıcı adı (örn: natgeo)</string>
+    <string name="btn_search">Ara</string>
+    <string name="disclaimer">Bu araç SADECE herkese açık (public) hesapların kamuya açık bilgilerini gösterir.\n\n"Profili kim gördü" bilgisi Instagram tarafından hiçbir uygulamaya verilmez — bu özellik yoktur ve olamaz.\n\nGizli (private) hesapların içeriği de gösterilmez; bu Instagram sunucusunda engellenir.\n\nHer şey gerçek veridir: sahte takipçi/gönderi üretilmez.</string>
+    <string name="error_not_found">Bu kullanıcı adı bulunamadı veya hesap mevcut değil.</string>
+    <string name="error_private">Bu hesap gizli (private). İçeriği gösterilemez — bu Instagram\'ın kendi erişim kontrolü, uygulamanın sınırı değil.</string>
+    <string name="error_network">Instagram\'a şu an erişilemedi. Çok sık istek gönderildiyse birkaç dakika sonra tekrar deneyin.</string>
+    <string name="no_posts">Bu hesabın gönderi önizlemeleri şu anda alınamadı. Instagram, giriş yapılmamış ziyaretlere gönderi listesini kısıtlayabiliyor — bu normal bir durum, uygulama sahte içerik göstermiyor.</string>
+    <string name="label_followers">Takipçi</string>
+    <string name="label_following">Takip</string>
+    <string name="label_posts">Gönderi</string>
+
+    <!-- Limit / reklam / premium -->
+    <string name="remaining_queries">Kalan hak: %d</string>
+    <string name="remaining_queries_unlimited">Sınırsız (Premium)</string>
+    <string name="btn_watch_ad">🎬 Reklam izle, +3 hak kazan</string>
+    <string name="btn_premium">⭐ Premium\'a Geç</string>
+    <string name="limit_reached_title">Günlük ücretsiz hakkın bitti</string>
+    <string name="limit_reached_message">Bugünkü 5 ücretsiz sorgu hakkını kullandın. Devam etmek için bir reklam izleyerek +3 hak kazanabilir veya Premium\'a geçip sınırsız kullanabilirsin.</string>
+    <string name="ad_not_ready">Reklam şu an hazır değil, birazdan tekrar dene.</string>
+    <string name="ad_reward_earned">+3 hak kazandın 🎉</string>
+    <string name="premium_badge">PREMIUM</string>
+    <string name="premium_badge_full">⭐ PREMIUM</string>
+    <string name="btn_history">🕓 Geçmiş</string>
+    <string name="btn_compare">⚖️ Karşılaştır</string>
+
+    <!-- Premium ekranı -->
+    <string name="premium_title">Public Stats Premium</string>
+    <string name="premium_subtitle">Sınırsız sorgula, reklamsız kullan.</string>
+    <string name="premium_feature_unlimited">Sınırsız günlük profil sorgusu</string>
+    <string name="premium_feature_noads">Reklamsız deneyim</string>
+    <string name="premium_feature_history">Arama geçmişi ve kayıtlı sonuçlar</string>
+    <string name="premium_feature_compare">İki profili yan yana karşılaştırma</string>
+    <string name="premium_feature_badge">Profilinde Premium rozeti</string>
+    <string name="premium_feature_dark">Koyu tema seçeneği</string>
+    <string name="btn_buy_premium">Premium Satın Al</string>
+    <string name="btn_restore_purchase">Satın Alımı Geri Yükle</string>
+    <string name="already_premium">Zaten Premium kullanıcısısın, teşekkürler! 💜</string>
+    <string name="premium_price_loading">Fiyat yükleniyor…</string>
+
+    <!-- Geçmiş ekranı -->
+    <string name="history_empty">Henüz arama geçmişin yok.</string>
+    <string name="history_locked_title">Bu özellik Premium\'a özel</string>
+    <string name="history_locked_message">Arama geçmişini görmek ve eski sonuçlara dönmek için Premium\'a geç.</string>
+
+    <!-- Karşılaştırma ekranı -->
+    <string name="compare_hint_a">1. kullanıcı adı</string>
+    <string name="compare_hint_b">2. kullanıcı adı</string>
+    <string name="btn_compare_now">Karşılaştır</string>
+    <string name="compare_locked_message">İki profili yan yana karşılaştırmak Premium\'a özel bir özelliktir.</string>
+</resources>
